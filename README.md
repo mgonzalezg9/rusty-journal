@@ -38,7 +38,7 @@ You just need to have installed Cargo and Rust. You can do this with the followi
     cargo run -- -j .journal.json complete 1
     ```
 
-`Note:` If the journal file is omitted it takes `.journal.json` by default, which should be present at the user's home directory.
+**Note:** If the journal file is omitted it takes `.journal.json` by default, which should be present at the user's home directory.
 
 ## Technologies
 
