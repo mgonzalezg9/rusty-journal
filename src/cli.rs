@@ -8,8 +8,8 @@ pub enum Action {
         #[structopt()]
         task: String,
     },
-    /// Remove one task
-    Done {
+    /// Complete one tash and hence remove it
+    Complete {
         #[structopt()]
         position: usize,
     },
