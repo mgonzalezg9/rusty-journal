@@ -6,8 +6,10 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-serde_json = "1.0"    # Add serde_json.
-structopt = "0.3"
+anyhow = "1.0" # Error pretty printing
+home = "0.5" # Accessing the home directory
+serde_json = "1.0" # JSON serialization
+structopt = "0.3" # Command line argument parsing 
 
 [dependencies.chrono]
 features = ["serde"]  # We're also going to need the serde feature for the chrono crate, so we can serialize the DateTime field.
